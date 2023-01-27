@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(251, 249, 247);
+  color: rgb(39, 140, 183);
+  color: gray;
+  display: flex;
+  /* justify-content: flex-start; */
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.diamondlake {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin-left: 100px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-left > li {
+  padding-left: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.navbar-left a {
+  padding-left: 20px;
+  font-family: "NoirPro-Regular";
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  justify-content: space-between;
+  margin-left: 100px;
+
+  color: #66a9cb;
+}
+
+.showcase {
+  background-image: url("./photos/showcase.png");
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100%;
+  /* or 120px */
+
+  color: #ffffff;
+  margin-top: 400px;
+}
+
+.showcase h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 67%;
+  /* or 27px */
+  letter-spacing: -0.04em;
+  /* Diamondlake deep dar blue */
+  color: #3a4957;
+  margin-top: 500px;
+}
+
+.trikart {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.trikart .tri1 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.trikart .tri1 p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4f4f4f;
+  padding-top: 15px;
+}
+
+.trikart .tri1 button {
+  background-color: #66a9cb;
+  border-radius: 8px;
+  border-color: #66a9cb;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.trikart .tri2 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.trikart .tri2 p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4f4f4f;
+  padding-top: 15px;
+}
+
+.trikart .tri2 button {
+  background-color: #66a9cb;
+  border-radius: 8px;
+  border-color: #66a9cb;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.trikart .tri3 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.trikart .tri3 p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4f4f4f;
+  padding-top: 15px;
+}
+
+.trikart .tri3 button {
+  background-color: #66a9cb;
+  border-radius: 8px;
+  border-color: #66a9cb;
+  padding: 10px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1novinki {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 96%;
+  /* or 44px */
+
+  color: #66a9cb;
+}
+
+.conatiner .shestphoto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.support {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.conatiner .support .support1 .support2 h2 {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 108%;
+  /* or 39px */
+
+  /* grey bege */
+
+  color: #4f4f4f;
+}
+.container .support .support1 .support2 p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 184.8%;
+  /* or 26px */
+  color: #000000;
+}
+
+.container .support h2 {
+  font-size: 50px;
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 108%;
+  /* or 39px */
+
+  /* grey bege */
+
+  color: #4f4f4f;
+}
+
+.container .support p {
+  padding: 20px;
+  font-size: 20px;
+  padding-left: 7px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 184.8%;
+  /* or 26px */
+
+  color: #000000;
+}
+
+.h4prend {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 156%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.5;
+  padding: 150px;
+}
+
+.txtend {
+  padding: 80px;
+}
+.h1end {
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 150%;
+/* or 36px */
+
+text-align: center;
+
+color: #66A9CB
+}
+
+.pend {
+  font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 36px */
+
+text-align: center;
+}
+
+footer nav  {
+  background-color: #66A9CB;
+  display: flex;
+}
+
+
+footer nav a {
+  color:#ffffff ;
+  font-size: 17px;
+}
+
+footer nav .footer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 4;
+  
+}
+
+footer nav .footer2  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 4;
+  
+}
+
+footer nav .footer3     {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 4;
+  
+}
+
+footer nav .footer4     {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 4;
+ 
+  
+
+  
+}
